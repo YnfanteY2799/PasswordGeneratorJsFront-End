@@ -14,10 +14,10 @@ const MainAppBar = ({ open, opener }) => (
         <AppBar position="static">
             <Toolbar>
                 <IconButton edge="start" className={uS().menuButton}  color="inherit" aria-label="menu">
-                    <MenuIcon/>
+                    {/* <MenuIcon/> */}
                 </IconButton>
                 <Typography variant="h6" className={uS().title}>
-                    PassGetter
+                    PSW-Generator/Saver
                 </Typography>
                 <Button color="inherit">Login</Button>
             </Toolbar>
