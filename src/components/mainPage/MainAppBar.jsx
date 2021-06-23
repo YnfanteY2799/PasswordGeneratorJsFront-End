@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuIcon from '@material-ui/icons/Menu';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, IconButton, Typography, Button } from '@material-ui/core';
 
@@ -13,9 +12,7 @@ const MainAppBar = ({ open, opener }) => (
     <div className={uS().root}>
         <AppBar position="static">
             <Toolbar>
-                <IconButton edge="start" className={uS().menuButton}  color="inherit" aria-label="menu">
-                    {/* <MenuIcon/> */}
-                </IconButton>
+                <IconButton edge="start" className={uS().menuButton}  color="inherit" aria-label="menu"/>
                 <Typography variant="h6" className={uS().title}>
                     PSW-Generator/Saver
                 </Typography>
