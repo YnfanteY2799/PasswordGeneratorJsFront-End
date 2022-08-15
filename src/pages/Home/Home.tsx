@@ -1,11 +1,13 @@
 import { ReactElement } from "react";
-import { BeakerIcon } from "@heroicons/react/solid";
+import { Navbar, Footer } from "../../components/Index";
+import { Outlet } from "react-router-dom";
 
 export default function Home(): ReactElement {
   return (
     <>
-      <BeakerIcon className="h-25 w-25 text-primary" />
-      HomePage
+      <Navbar />
+      <Outlet />
+      <Footer />
     </>
   );
 }
